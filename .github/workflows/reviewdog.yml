@@ -13,5 +13,4 @@ jobs:
           github_token: ${{ secrets.github_token }}
           reporter: github-pr-review # Default is github-pr-check
           exclude: |
-            /vendor/*
             Dockerfile.*
