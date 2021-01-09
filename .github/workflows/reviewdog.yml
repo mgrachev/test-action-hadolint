@@ -15,3 +15,4 @@ jobs:
           hadolint_ignore: DL3009 DL3010
           exclude: |
             Dockerfile.dev
+            Dockerfile
