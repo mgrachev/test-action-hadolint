@@ -14,3 +14,5 @@ jobs:
           fail_on_error: true
           reporter: github-pr-review # Default is github-pr-check
           hadolint_ignore: DL3007
+          exclude: |
+            Dockerfile
