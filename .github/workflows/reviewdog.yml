@@ -8,6 +8,8 @@ jobs:
       - name: Check out code
         uses: actions/checkout@v1
       - uses: ruby/setup-ruby@v1
+        with:
+          ruby-version: 2.6
       - name: rubocop
         uses: reviewdog/action-rubocop@master
         with:
@@ -22,6 +24,8 @@ jobs:
       - name: Check out code
         uses: actions/checkout@v1
       - uses: ruby/setup-ruby@v1
+        with:
+          ruby-version: 2.6
       - name: reek
         uses: reviewdog/action-reek@v1
         with:
