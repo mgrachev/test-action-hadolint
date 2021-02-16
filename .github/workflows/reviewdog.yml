@@ -1,14 +1,16 @@
 name: reviewdog
 on: [pull_request]
 jobs:
-  hadolint:
-    name: runner / hadolint
+  rubocop:
+    name: runner / rubocop
     runs-on: ubuntu-latest
     steps:
       - name: Check out code
         uses: actions/checkout@v1
-      - name: hadolint
-        uses: reviewdog/action-hadolint@v1
+      - name: rubocop
+        uses: reviewdog/action-rubocop@v1
         with:
+          rubocop_version: 1.10
+          rubocop_extensions: ""
           github_token: ${{ secrets.github_token }}
           reporter: github-pr-review # Default is github-pr-check
