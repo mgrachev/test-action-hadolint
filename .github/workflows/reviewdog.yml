@@ -1,22 +1,6 @@
 name: reviewdog
 on: [pull_request]
 jobs:
-  rubocop:
-    name: runner / rubocop
-    runs-on: ubuntu-latest
-    steps:
-      - name: Check out code
-        uses: actions/checkout@v1
-      - uses: ruby/setup-ruby@v1
-        with:
-          ruby-version: 2.6
-      - name: rubocop
-        uses: reviewdog/action-rubocop@master
-        with:
-          rubocop_version: 1.10
-          rubocop_extensions: ""
-          github_token: ${{ secrets.github_token }}
-          reporter: github-pr-review # Default is github-pr-check
   reek:
     name: runner / reek
     runs-on: ubuntu-latest
@@ -29,6 +13,6 @@ jobs:
       - name: reek
         uses: reviewdog/action-reek@v1
         with:
-          reek_version: 6.0.0
+          reek_version: 6.0.3
           github_token: ${{ secrets.github_token }}
           reporter: github-pr-review # Default is github-pr-check
