@@ -8,7 +8,7 @@ jobs:
       - name: Check out code
         uses: actions/checkout@v1
       - name: rubocop
-        uses: reviewdog/action-rubocop@v1
+        uses: reviewdog/action-rubocop@master
         with:
           rubocop_version: 1.10
           rubocop_extensions: ""
