@@ -13,7 +13,7 @@ jobs:
       - name: reek
         uses: reviewdog/action-reek@v1
         with:
-          reek_version: 6.0.3
+          reek_version: gemfile
           github_token: ${{ secrets.github_token }}
           reporter: github-pr-review # Default is github-pr-check
   rubocop:
