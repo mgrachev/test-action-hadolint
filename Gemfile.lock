@@ -1,0 +1,858 @@
+GIT
+  remote: https://github.com/cryptopay-dev/bitgo-ruby.git
+  revision: 26be981795a9d32a7be07ce9cc866ede80c84e29
+  specs:
+    bitgo (0.1.0)
+
+GIT
+  remote: https://github.com/hugolantaume/iso-swift
+  revision: af731bfb6061b331f9616fa0aac691571cd29b4e
+  specs:
+    iso-swift (0.0.2)
+      countries
+
+GIT
+  remote: https://github.com/silvermind/rack-utm.git
+  revision: 20a73a20550e64927a414f0b1e99ae5b16513e6a
+  specs:
+    rack-utm (0.0.1)
+      rack
+
+GEM
+  remote: https://rubygems.org/
+  remote: https://gem.fury.io/cryptopay/
+  specs:
+    aasm (5.0.8)
+      concurrent-ruby (~> 1.0)
+    actioncable (5.2.4.3)
+      actionpack (= 5.2.4.3)
+      nio4r (~> 2.0)
+      websocket-driver (>= 0.6.1)
+    actionmailer (5.2.4.3)
+      actionpack (= 5.2.4.3)
+      actionview (= 5.2.4.3)
+      activejob (= 5.2.4.3)
+      mail (~> 2.5, >= 2.5.4)
+      rails-dom-testing (~> 2.0)
+    actionpack (5.2.4.3)
+      actionview (= 5.2.4.3)
+      activesupport (= 5.2.4.3)
+      rack (~> 2.0, >= 2.0.8)
+      rack-test (>= 0.6.3)
+      rails-dom-testing (~> 2.0)
+      rails-html-sanitizer (~> 1.0, >= 1.0.2)
+    actionview (5.2.4.3)
+      activesupport (= 5.2.4.3)
+      builder (~> 3.1)
+      erubi (~> 1.4)
+      rails-dom-testing (~> 2.0)
+      rails-html-sanitizer (~> 1.0, >= 1.0.3)
+    active_decorator (1.3.2)
+      activesupport
+    activejob (5.2.4.3)
+      activesupport (= 5.2.4.3)
+      globalid (>= 0.3.6)
+    activemodel (5.2.4.3)
+      activesupport (= 5.2.4.3)
+    activerecord (5.2.4.3)
+      activemodel (= 5.2.4.3)
+      activesupport (= 5.2.4.3)
+      arel (>= 9.0)
+    activerecord-clean-db-structure (0.4.0)
+      activerecord (>= 4.2)
+    activerecord-nulldb-adapter (0.5.1)
+      activerecord (>= 5.2.0)
+    activerecord-typedstore (1.3.0)
+      activerecord (>= 5.2)
+    activestorage (5.2.4.3)
+      actionpack (= 5.2.4.3)
+      activerecord (= 5.2.4.3)
+      marcel (~> 0.3.1)
+    activesupport (5.2.4.3)
+      concurrent-ruby (~> 1.0, >= 1.0.2)
+      i18n (>= 0.7, < 2)
+      minitest (~> 5.1)
+      tzinfo (~> 1.1)
+    addressable (2.7.0)
+      public_suffix (>= 2.0.2, < 5.0)
+    amq-protocol (2.3.2)
+    analytics-ruby (2.2.8)
+    angular_rails_csrf (4.4.0)
+      railties (>= 3, < 7)
+    angularjs-rails (1.4.7)
+    angularjs-rails-resource (2.2.2)
+    api-pagination (4.8.2)
+    arel (9.0.0)
+    ast (2.4.1)
+    attr_extras (6.2.4)
+    autoprefixer-rails (10.0.0.2)
+      execjs
+    aws-eventstream (1.1.0)
+    aws-partitions (1.372.0)
+    aws-sdk-core (3.107.0)
+      aws-eventstream (~> 1, >= 1.0.2)
+      aws-partitions (~> 1, >= 1.239.0)
+      aws-sigv4 (~> 1.1)
+      jmespath (~> 1.0)
+    aws-sdk-kms (1.38.0)
+      aws-sdk-core (~> 3, >= 3.99.0)
+      aws-sigv4 (~> 1.1)
+    aws-sdk-s3 (1.79.1)
+      aws-sdk-core (~> 3, >= 3.104.3)
+      aws-sdk-kms (~> 1)
+      aws-sigv4 (~> 1.1)
+    aws-sigv4 (1.2.2)
+      aws-eventstream (~> 1, >= 1.0.2)
+    axiom-types (0.1.1)
+      descendants_tracker (~> 0.0.4)
+      ice_nine (~> 0.11.0)
+      thread_safe (~> 0.3, >= 0.3.1)
+    base58 (0.2.3)
+    bcrypt (3.1.13)
+    better_errors (2.7.1)
+      coderay (>= 1.0.0)
+      erubi (>= 1.0.0)
+      rack (>= 0.9.0)
+    binding_of_caller (0.8.0)
+      debug_inspector (>= 0.0.1)
+    bitcoin-ruby (0.0.18)
+    bootsnap (1.5.1)
+      msgpack (~> 1.0)
+    bootstrap-sass (3.4.1)
+      autoprefixer-rails (>= 5.2.1)
+      sassc (>= 2.0.0)
+    brakeman (4.9.0)
+    builder (3.2.4)
+    bunny (2.17.0)
+      amq-protocol (~> 2.3, >= 2.3.1)
+    byebug (11.1.3)
+    capybara (3.33.0)
+      addressable
+      mini_mime (>= 0.1.3)
+      nokogiri (~> 1.8)
+      rack (>= 1.6.0)
+      rack-test (>= 0.6.3)
+      regexp_parser (~> 1.5)
+      xpath (~> 3.2)
+    card-service (1.6.0)
+      dry-monads (~> 1.3.5)
+      dry-struct (>= 1.0.0)
+    classy_enum (4.0.0)
+      activerecord (>= 3.2)
+    coderay (1.1.3)
+    coercible (1.0.0)
+      descendants_tracker (~> 0.0.1)
+    compliance (0.14.1)
+      faraday (>= 0.14, < 1.1)
+      virtus
+    concurrent-ruby (1.1.7)
+    config (1.7.0)
+      activesupport (>= 3.0)
+      deep_merge (~> 1.2.1)
+      dry-validation (>= 0.10.4)
+    connection_pool (2.2.3)
+    countries (3.0.1)
+      i18n_data (~> 0.10.0)
+      sixarm_ruby_unaccent (~> 1.1)
+      unicode_utils (~> 1.4)
+    country_select (4.0.0)
+      countries (~> 3.0)
+      sort_alphabetical (~> 1.0)
+    crack (0.4.3)
+      safe_yaml (~> 1.0.0)
+    crass (1.0.6)
+    database_cleaner (1.8.5)
+    debug_inspector (0.0.3)
+    deep_merge (1.2.1)
+    descendants_tracker (0.0.4)
+      thread_safe (~> 0.3, >= 0.3.1)
+    devise (4.7.2)
+      bcrypt (~> 3.0)
+      orm_adapter (~> 0.1)
+      railties (>= 4.1.0)
+      responders
+      warden (~> 1.2.3)
+    devise_zxcvbn (5.1.0)
+      devise
+      zxcvbn-js (~> 4.4.1)
+    diff-lcs (1.4.4)
+    digest-sha3 (1.1.0)
+    dillinger (0.11.1)
+      dry-configurable
+      dry-initializer (~> 3.0)
+      faraday
+    docile (1.3.2)
+    domain_name (0.5.20190701)
+      unf (>= 0.0.5, < 1.0.0)
+    dotenv (2.7.6)
+    dotenv-consul (0.1.4)
+    dotenv-rails (2.7.6)
+      dotenv (= 2.7.6)
+      railties (>= 3.2)
+    dry-configurable (0.11.6)
+      concurrent-ruby (~> 1.0)
+      dry-core (~> 0.4, >= 0.4.7)
+      dry-equalizer (~> 0.2)
+    dry-container (0.7.2)
+      concurrent-ruby (~> 1.0)
+      dry-configurable (~> 0.1, >= 0.1.3)
+    dry-core (0.4.10)
+      concurrent-ruby (~> 1.0)
+    dry-equalizer (0.3.0)
+    dry-inflector (0.2.0)
+    dry-initializer (3.0.3)
+    dry-logic (1.0.8)
+      concurrent-ruby (~> 1.0)
+      dry-core (~> 0.2)
+      dry-equalizer (~> 0.2)
+    dry-monads (1.3.5)
+      concurrent-ruby (~> 1.0)
+      dry-core (~> 0.4, >= 0.4.4)
+      dry-equalizer
+    dry-schema (1.5.6)
+      concurrent-ruby (~> 1.0)
+      dry-configurable (~> 0.8, >= 0.8.3)
+      dry-core (~> 0.4)
+      dry-equalizer (~> 0.2)
+      dry-initializer (~> 3.0)
+      dry-logic (~> 1.0)
+      dry-types (~> 1.4)
+    dry-struct (1.3.0)
+      dry-core (~> 0.4, >= 0.4.4)
+      dry-equalizer (~> 0.3)
+      dry-types (~> 1.3)
+      ice_nine (~> 0.11)
+    dry-types (1.4.0)
+      concurrent-ruby (~> 1.0)
+      dry-container (~> 0.3)
+      dry-core (~> 0.4, >= 0.4.4)
+      dry-equalizer (~> 0.3)
+      dry-inflector (~> 0.1, >= 0.1.2)
+      dry-logic (~> 1.0, >= 1.0.2)
+    dry-validation (1.5.2)
+      concurrent-ruby (~> 1.0)
+      dry-container (~> 0.7, >= 0.7.1)
+      dry-core (~> 0.4)
+      dry-equalizer (~> 0.2)
+      dry-initializer (~> 3.0)
+      dry-schema (~> 1.5)
+    e2mmap (0.1.0)
+    elastic-apm (3.10.1)
+      concurrent-ruby (~> 1.0)
+      http (>= 3.0)
+    encryptor (3.0.0)
+    enumerize (2.3.1)
+      activesupport (>= 3.2)
+    equalizer (0.0.11)
+    erubi (1.10.0)
+    erubis (2.7.0)
+    et-orbi (1.2.4)
+      tzinfo
+    execjs (2.7.0)
+    factory_bot (6.0.2)
+      activesupport (>= 5.0.0)
+    factory_bot_rails (6.0.0)
+      factory_bot (~> 6.0.0)
+      railties (>= 5.0.0)
+    faker (2.15.1)
+      i18n (>= 1.6, < 2)
+    faraday (0.14.0)
+      multipart-post (>= 1.2, < 3)
+    fcm (0.0.6)
+      faraday (~> 0.14.0)
+    ffi (1.13.1)
+    ffi-compiler (1.0.1)
+      ffi (>= 1.0.0)
+      rake
+    font_assets (0.1.14)
+      rack
+    fugit (1.3.9)
+      et-orbi (~> 1.1, >= 1.1.8)
+      raabro (~> 1.3)
+    globalid (0.4.2)
+      activesupport (>= 4.2.0)
+    gon (6.4.0)
+      actionpack (>= 3.0.20)
+      i18n (>= 0.7)
+      multi_json
+      request_store (>= 1.0)
+    google-protobuf (3.12.2)
+    grape (1.3.3)
+      activesupport
+      builder
+      dry-types (>= 1.1)
+      mustermann-grape (~> 1.0.0)
+      rack (>= 1.3.0)
+      rack-accept
+    grape-entity (0.8.1)
+      activesupport (>= 3.0.0)
+      multi_json (>= 1.3.2)
+    grape-swagger (1.3.0)
+      grape (~> 1.3)
+    grape-swagger-entity (0.5.1)
+      grape-entity (>= 0.6.0)
+      grape-swagger (>= 1.2.0)
+    grape-swagger-rails (0.3.1)
+      railties (>= 3.2.12)
+    grape_logging (1.8.4)
+      grape
+      rack
+    grape_on_rails_routes (0.3.2)
+      rails (>= 3.1.1)
+    haml (5.1.2)
+      temple (>= 0.8.0)
+      tilt
+    haml-rails (2.0.1)
+      actionpack (>= 5.1)
+      activesupport (>= 5.1)
+      haml (>= 4.0.6, < 6.0)
+      html2haml (>= 1.0.1)
+      railties (>= 5.1)
+    haml_lint (0.35.0)
+      haml (>= 4.0, < 5.2)
+      rainbow
+      rubocop (>= 0.50.0)
+      sysexits (~> 1.1)
+    hashdiff (1.0.1)
+    hashie (4.1.0)
+    high_voltage (3.1.2)
+    html2haml (2.2.0)
+      erubis (~> 2.7.0)
+      haml (>= 4.0, < 6)
+      nokogiri (>= 1.6.0)
+      ruby_parser (~> 3.5)
+    http (4.4.1)
+      addressable (~> 2.3)
+      http-cookie (~> 1.0)
+      http-form_data (~> 2.2)
+      http-parser (~> 1.2.0)
+    http-accept (1.7.0)
+    http-cookie (1.0.3)
+      domain_name (~> 0.5)
+    http-form_data (2.3.0)
+    http-parser (1.2.1)
+      ffi-compiler (>= 1.0, < 2.0)
+    httparty (0.18.1)
+      mime-types (~> 3.0)
+      multi_xml (>= 0.5.2)
+    httpclient (2.8.3)
+    i18n (1.8.5)
+      concurrent-ruby (~> 1.0)
+    i18n_data (0.10.0)
+    ibandit (1.1.0.1)
+      i18n
+    ice_nine (0.11.2)
+    inflection (1.0.0)
+    intercom-rails (0.4.1)
+      activesupport (> 3.0)
+    jaro_winkler (1.5.4)
+    jmespath (1.4.0)
+    jquery-rails (4.4.0)
+      rails-dom-testing (>= 1, < 3)
+      railties (>= 4.2.0)
+      thor (>= 0.14, < 2.0)
+    jquery-ui-rails (6.0.1)
+      railties (>= 3.2.16)
+    json_matchers (0.11.1)
+      json_schema
+    json_schema (0.20.9)
+    jwt (2.2.1)
+    kaminari (1.2.1)
+      activesupport (>= 4.1.0)
+      kaminari-actionview (= 1.2.1)
+      kaminari-activerecord (= 1.2.1)
+      kaminari-core (= 1.2.1)
+    kaminari-actionview (1.2.1)
+      actionview
+      kaminari-core (= 1.2.1)
+    kaminari-activerecord (1.2.1)
+      activerecord
+      kaminari-core (= 1.2.1)
+    kaminari-bootstrap (3.0.1)
+      kaminari (>= 0.13.0)
+      rails
+    kaminari-core (1.2.1)
+    kwalify (0.7.2)
+    libv8 (8.4.255.0)
+    loggy (1.3.0)
+      dry-configurable
+      semantic_logger (~> 4.5)
+      sentry-raven
+    lograge (0.11.2)
+      actionpack (>= 4)
+      activesupport (>= 4)
+      railties (>= 4)
+      request_store (~> 1.0)
+    loofah (2.7.0)
+      crass (~> 1.0.2)
+      nokogiri (>= 1.5.9)
+    mail (2.7.1)
+      mini_mime (>= 0.1.1)
+    marcel (0.3.3)
+      mimemagic (~> 0.3.2)
+    meta-tags (2.13.0)
+      actionpack (>= 3.2.0, < 6.1)
+    method_source (1.0.0)
+    mime-types (3.3.1)
+      mime-types-data (~> 3.2015)
+    mime-types-data (3.2020.0512)
+    mimemagic (0.3.5)
+    mini_mime (1.0.2)
+    mini_portile2 (2.4.0)
+    mini_racer (0.3.1)
+      libv8 (~> 8.4.255)
+    minitest (5.14.2)
+    monetize (1.9.4)
+      money (~> 6.12)
+    money (6.13.8)
+      i18n (>= 0.6.4, <= 2)
+    money-rails (1.13.3)
+      activesupport (>= 3.0)
+      monetize (~> 1.9.0)
+      money (~> 6.13.2)
+      railties (>= 3.0)
+    msgpack (1.3.3)
+    multi_json (1.15.0)
+    multi_xml (0.6.0)
+    multipart-post (2.1.1)
+    mustermann (1.1.1)
+      ruby2_keywords (~> 0.0.1)
+    mustermann-grape (1.0.1)
+      mustermann (>= 1.0.0)
+    netrc (0.11.0)
+    nilify_blanks (1.4.0)
+      activerecord (>= 4.0.0)
+      activesupport (>= 4.0.0)
+    nio4r (2.5.2)
+    nokogiri (1.10.10)
+      mini_portile2 (~> 2.4.0)
+    oj (3.10.13)
+    oj_mimic_json (1.0.1)
+    orm_adapter (0.5.0)
+    parallel (1.19.2)
+    paranoia (2.4.2)
+      activerecord (>= 4.0, < 6.1)
+    parser (2.7.1.4)
+      ast (~> 2.4.1)
+    patience_diff (1.1.0)
+      trollop (~> 1.16)
+    pg (1.2.3)
+    prometheus-client (2.1.0)
+    pry (0.13.1)
+      coderay (~> 1.1)
+      method_source (~> 1.0)
+    pry-byebug (3.9.0)
+      byebug (~> 11.0)
+      pry (~> 0.13.0)
+    pry-rails (0.3.9)
+      pry (>= 0.10.4)
+    psych (3.1.0)
+    public_activity (1.6.4)
+      actionpack (>= 3.0.0)
+      activerecord (>= 3.0)
+      i18n (>= 0.5.0)
+      railties (>= 3.0.0)
+    public_suffix (4.0.6)
+    puma (4.3.5)
+      nio4r (~> 2.0)
+    pundit (2.1.0)
+      activesupport (>= 3.0.0)
+    pusher (1.3.3)
+      httpclient (~> 2.7)
+      multi_json (~> 1.0)
+      pusher-signature (~> 0.1.8)
+    pusher-signature (0.1.8)
+    raabro (1.3.1)
+    rack (2.2.3)
+    rack-accept (0.4.5)
+      rack (>= 0.4)
+    rack-attack (6.3.1)
+      rack (>= 1.0, < 3)
+    rack-ecg (0.0.5)
+      rack
+    rack-test (1.1.0)
+      rack (>= 1.0, < 3)
+    rails (5.2.4.3)
+      actioncable (= 5.2.4.3)
+      actionmailer (= 5.2.4.3)
+      actionpack (= 5.2.4.3)
+      actionview (= 5.2.4.3)
+      activejob (= 5.2.4.3)
+      activemodel (= 5.2.4.3)
+      activerecord (= 5.2.4.3)
+      activestorage (= 5.2.4.3)
+      activesupport (= 5.2.4.3)
+      bundler (>= 1.3.0)
+      railties (= 5.2.4.3)
+      sprockets-rails (>= 2.0.0)
+    rails-controller-testing (1.0.5)
+      actionpack (>= 5.0.1.rc1)
+      actionview (>= 5.0.1.rc1)
+      activesupport (>= 5.0.1.rc1)
+    rails-dom-testing (2.0.3)
+      activesupport (>= 4.2.0)
+      nokogiri (>= 1.6)
+    rails-html-sanitizer (1.3.0)
+      loofah (~> 2.3)
+    rails-i18n (5.1.3)
+      i18n (>= 0.7, < 2)
+      railties (>= 5.0, < 6)
+    railties (5.2.4.3)
+      actionpack (= 5.2.4.3)
+      activesupport (= 5.2.4.3)
+      method_source
+      rake (>= 0.8.7)
+      thor (>= 0.19.0, < 2.0)
+    rainbow (3.0.0)
+    rake (12.3.3)
+    randexp (0.1.7)
+    redis (4.2.5)
+    redis-session-store (0.11.3)
+      actionpack (>= 3, < 7)
+      redis (>= 3, < 5)
+    reek (6.0.1)
+      kwalify (~> 0.7.0)
+      parser (>= 2.5.0.0, < 2.8, != 2.5.1.1)
+      psych (~> 3.1.0)
+      rainbow (>= 2.0, < 4.0)
+    regexp_parser (1.8.2)
+    request_store (1.5.0)
+      rack (>= 1.4)
+    responders (3.0.1)
+      actionpack (>= 5.0)
+      railties (>= 5.0)
+    rest-client (2.1.0)
+      http-accept (>= 1.7.0, < 2.0)
+      http-cookie (>= 1.0.2, < 2.0)
+      mime-types (>= 1.16, < 4.0)
+      netrc (~> 0.8)
+    rexml (3.2.4)
+    rlp (0.7.3)
+    rotp (6.1.0)
+    rspec-core (3.9.2)
+      rspec-support (~> 3.9.3)
+    rspec-expectations (3.9.2)
+      diff-lcs (>= 1.2.0, < 2.0)
+      rspec-support (~> 3.9.0)
+    rspec-mocks (3.9.1)
+      diff-lcs (>= 1.2.0, < 2.0)
+      rspec-support (~> 3.9.0)
+    rspec-rails (4.0.1)
+      actionpack (>= 4.2)
+      activesupport (>= 4.2)
+      railties (>= 4.2)
+      rspec-core (~> 3.9)
+      rspec-expectations (~> 3.9)
+      rspec-mocks (~> 3.9)
+      rspec-support (~> 3.9)
+    rspec-support (3.9.3)
+    rspec_junit_formatter (0.4.1)
+      rspec-core (>= 2, < 4, != 2.12.0)
+    rubocop (0.89.1)
+      parallel (~> 1.10)
+      parser (>= 2.7.1.1)
+      rainbow (>= 2.2.2, < 4.0)
+      regexp_parser (>= 1.7)
+      rexml
+      rubocop-ast (>= 0.3.0, < 1.0)
+      ruby-progressbar (~> 1.7)
+      unicode-display_width (>= 1.4.0, < 2.0)
+    rubocop-ast (0.4.1)
+      parser (>= 2.7.1.4)
+    rubocop-junit-formatter (0.1.4)
+    rubocop-performance (1.7.1)
+      rubocop (>= 0.82.0)
+    rubocop-rails (2.6.0)
+      activesupport (>= 4.2.0)
+      rack (>= 1.1)
+      rubocop (>= 0.82.0)
+    rubocop-rspec (1.43.2)
+      rubocop (~> 0.87)
+    ruby-progressbar (1.10.1)
+    ruby2_keywords (0.0.2)
+    ruby_parser (3.14.2)
+      sexp_processor (~> 4.9)
+    rufus-scheduler (3.6.0)
+      fugit (~> 1.1, >= 1.1.6)
+    russian (0.6.0)
+      i18n (>= 0.5.0)
+    safe_yaml (1.0.5)
+    sass-rails (6.0.0)
+      sassc-rails (~> 2.1, >= 2.1.1)
+    sassc (2.4.0)
+      ffi (~> 1.9)
+    sassc-rails (2.1.2)
+      railties (>= 4.0.0)
+      sassc (>= 2.0)
+      sprockets (> 3.0)
+      sprockets-rails
+      tilt
+    semantic_logger (4.7.4)
+      concurrent-ruby (~> 1.0)
+    sentry-raven (2.13.0)
+      faraday (>= 0.7.6, < 1.0)
+    serverengine (2.1.1)
+      sigdump (~> 0.2.2)
+    sexp_processor (4.15.1)
+    shoulda-matchers (4.4.1)
+      activesupport (>= 4.2.0)
+    sidekiq (6.1.2)
+      connection_pool (>= 2.2.2)
+      rack (~> 2.0)
+      redis (>= 4.2.0)
+    sidekiq-limit_fetch (3.4.0)
+      sidekiq (>= 4)
+    sidekiq-scheduler (3.0.1)
+      e2mmap
+      redis (>= 3, < 5)
+      rufus-scheduler (~> 3.2)
+      sidekiq (>= 3)
+      thwait
+      tilt (>= 1.4.0)
+    sift (4.0.0)
+      httparty (>= 0.11.0)
+      multi_json (>= 1.0)
+    sigdump (0.2.4)
+    simple_enum (2.3.2)
+      activesupport (>= 4.0.0)
+    simplecov (0.20.0)
+      docile (~> 1.1)
+      simplecov-html (~> 0.11)
+      simplecov_json_formatter (~> 0.1)
+    simplecov-cobertura (1.3.1)
+      simplecov (~> 0.8)
+    simplecov-html (0.12.3)
+    simplecov_json_formatter (0.1.2)
+    sixarm_ruby_unaccent (1.2.0)
+    sneakers (2.12.0)
+      bunny (~> 2.14)
+      concurrent-ruby (~> 1.0)
+      rake (~> 12.3)
+      serverengine (~> 2.1.0)
+      thor
+    sort_alphabetical (1.1.0)
+      unicode_utils (>= 1.2.2)
+    sprockets (4.0.2)
+      concurrent-ruby (~> 1.0)
+      rack (> 1, < 3)
+    sprockets-rails (3.2.1)
+      actionpack (>= 4.0)
+      activesupport (>= 4.0)
+      sprockets (>= 3.0.0)
+    strip_attributes (1.11.0)
+      activemodel (>= 3.0, < 7.0)
+    strong_migrations (0.6.8)
+      activerecord (>= 5)
+    super_diff (0.5.2)
+      attr_extras (>= 6.2.4)
+      diff-lcs
+      patience_diff
+    sysexits (1.2.0)
+    temple (0.8.2)
+    test-prof (0.12.2)
+    thor (1.0.1)
+    thread_safe (0.3.6)
+    thwait (0.2.0)
+      e2mmap
+    tilt (2.0.10)
+    timeliness (0.4.4)
+    traceroute (0.8.1)
+      rails (>= 3.0.0)
+    trollop (1.16.2)
+    twirp (1.5.0)
+      faraday (< 2)
+      google-protobuf (~> 3.0, >= 3.0.0)
+    two_factor_authentication (2.2.0)
+      devise
+      encryptor
+      rails (>= 3.1.1)
+      randexp
+      rotp (>= 4.0.0)
+    tzinfo (1.2.8)
+      thread_safe (~> 0.1)
+    uglifier (4.2.0)
+      execjs (>= 0.3.0, < 3)
+    unf (0.1.4)
+      unf_ext
+    unf_ext (0.0.7.7)
+    unicode-display_width (1.7.0)
+    unicode_utils (1.4.0)
+    validates_timeliness (4.1.1)
+      timeliness (>= 0.3.10, < 1)
+    varys (0.2.1)
+      dry-configurable
+      prometheus-client
+      rack
+      sentry-raven
+    vcr (5.1.0)
+    virtus (1.0.5)
+      axiom-types (~> 0.1)
+      coercible (~> 1.0)
+      descendants_tracker (~> 0.0, >= 0.0.3)
+      equalizer (~> 0.0, >= 0.0.9)
+    warden (1.2.8)
+      rack (>= 2.0.6)
+    webmock (3.8.3)
+      addressable (>= 2.3.6)
+      crack (>= 0.3.2)
+      hashdiff (>= 0.4.0, < 2.0.0)
+    webpacker (2.0)
+      activesupport (>= 4.2)
+      multi_json (~> 1.2)
+      railties (>= 4.2)
+    websocket-driver (0.7.2)
+      websocket-extensions (>= 0.1.0)
+    websocket-extensions (0.1.5)
+    wisper (2.0.1)
+    wisper-rspec (1.1.0)
+    xpath (3.2.0)
+      nokogiri (~> 1.8)
+    zendesk_api (1.27.0)
+      faraday (>= 0.9.0, < 2.0.0)
+      hashie (>= 3.5.2, < 5.0.0)
+      inflection
+      mime-types
+      multipart-post (~> 2.0)
+    zxcvbn-js (4.4.3)
+      execjs
+
+PLATFORMS
+  ruby
+
+DEPENDENCIES
+  aasm
+  active_decorator
+  activerecord-clean-db-structure
+  activerecord-nulldb-adapter
+  activerecord-typedstore
+  analytics-ruby (= 2.2.8)
+  angular_rails_csrf
+  angularjs-rails (= 1.4.7)
+  angularjs-rails-resource
+  api-pagination
+  autoprefixer-rails
+  aws-sdk-s3
+  base58
+  better_errors
+  binding_of_caller
+  bitcoin-ruby (= 0.0.18)
+  bitgo!
+  bootsnap
+  bootstrap-sass (~> 3.4)
+  brakeman
+  capybara
+  card-service (~> 1.6.0)!
+  classy_enum
+  compliance (~> 0.14.1)!
+  config (~> 1.7)
+  countries
+  country_select
+  database_cleaner
+  devise
+  devise_zxcvbn (~> 5.1)
+  digest-sha3
+  dillinger!
+  dotenv-consul
+  dotenv-rails
+  dry-initializer
+  dry-monads (~> 1.3.5)
+  dry-validation (~> 1.5)
+  elastic-apm
+  enumerize
+  execjs
+  factory_bot_rails
+  faker
+  faraday (~> 0.14.0)
+  fcm (~> 0.0.6)!
+  font_assets
+  gon
+  grape
+  grape-entity
+  grape-swagger-entity
+  grape-swagger-rails
+  grape_logging (~> 1.8)
+  grape_on_rails_routes
+  haml-rails
+  haml_lint (~> 0)
+  high_voltage
+  ibandit
+  intercom-rails
+  iso-swift!
+  jaro_winkler (~> 1.5.4)
+  jquery-rails
+  jquery-ui-rails
+  json_matchers
+  jwt
+  kaminari
+  kaminari-bootstrap (~> 3.0.1)
+  loggy!
+  lograge
+  meta-tags
+  mini_racer
+  money-rails
+  multipart-post
+  nilify_blanks
+  oj
+  oj_mimic_json
+  paranoia (~> 2.4)
+  pg
+  pry-byebug
+  pry-rails
+  public_activity
+  puma
+  pundit
+  pusher
+  rack
+  rack-attack
+  rack-ecg
+  rack-utm!
+  rails (~> 5.2.4)
+  rails-controller-testing
+  rails-i18n
+  redis
+  redis-session-store
+  reek
+  rest-client (~> 2.1.0)
+  rlp
+  rspec-rails
+  rspec_junit_formatter
+  rubocop
+  rubocop-junit-formatter
+  rubocop-performance
+  rubocop-rails
+  rubocop-rspec (~> 1)
+  ruby-progressbar (~> 1)
+  russian (~> 0.6.0)
+  sass-rails
+  sentry-raven
+  shoulda-matchers
+  sidekiq (< 7)
+  sidekiq-limit_fetch
+  sidekiq-scheduler (~> 3.0.1)
+  sift
+  simple_enum
+  simplecov
+  simplecov-cobertura
+  sneakers
+  strip_attributes
+  strong_migrations
+  super_diff
+  test-prof
+  traceroute
+  twirp
+  two_factor_authentication
+  uglifier
+  validates_timeliness (~> 4.1.1)
+  varys
+  vcr
+  webmock
+  webpacker (~> 2)
+  wisper
+  wisper-rspec
+  zendesk_api
+
+RUBY VERSION
+   ruby 2.6.6p146
+
+BUNDLED WITH
+   1.17.3
