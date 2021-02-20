@@ -16,3 +16,19 @@ jobs:
           reek_version: 6.0.3
           github_token: ${{ secrets.github_token }}
           reporter: github-pr-review # Default is github-pr-check
+  rubocop:
+    name: runner / rubocop
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check out code
+        uses: actions/checkout@v1
+      - uses: ruby/setup-ruby@v1
+        with:
+          ruby-version: 2.6
+      - name: rubocop
+        uses: reviewdog/action-rubocop@fix-pcregrep-error
+        with:
+          rubocop_version: gemfile
+          rubocop_extensions: rubocop-rails:gemfile rubocop-rspec:gemfile
+          github_token: ${{ secrets.github_token }}
+          reporter: github-pr-review # Default is github-pr-check
