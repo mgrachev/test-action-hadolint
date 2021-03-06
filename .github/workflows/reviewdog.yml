@@ -9,8 +9,7 @@ jobs:
       - uses: dotenv-linter/action-dotenv-linter@code-suggestions
         with:
           github_token: ${{ secrets.github_token }}
-          reporter: github-pr-review # Default is github-pr-check
-          suggest_code_changes: true
+          reporter: github-code-suggestions
   reek:
     name: runner / reek
     runs-on: ubuntu-latest
