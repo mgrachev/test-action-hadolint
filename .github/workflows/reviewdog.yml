@@ -6,10 +6,11 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v2
-      - uses: dotenv-linter/action-dotenv-linter@v2
+      - uses: dotenv-linter/action-dotenv-linter@code-suggestions
         with:
           github_token: ${{ secrets.github_token }}
           reporter: github-pr-review # Default is github-pr-check
+          suggest_code_changes: true
   reek:
     name: runner / reek
     runs-on: ubuntu-latest
@@ -35,7 +36,7 @@ jobs:
         with:
           ruby-version: 2.6
       - name: rubocop
-        uses: reviewdog/action-rubocop@fix-pcregrep-error
+        uses: reviewdog/action-rubocop@v1
         with:
           rubocop_version: gemfile
           rubocop_extensions: rubocop-rails:gemfile rubocop-rspec:gemfile
